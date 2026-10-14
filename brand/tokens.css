@@ -1,0 +1,146 @@
+/*
+ * Santiago Ways · Brandbook 2027
+ * Tokens de diseño para web, landing pages y emails.
+ * Fuente: brand/Santiago_Ways_Brandbook_2027.pdf (resumen en brand/BRANDBOOK.md)
+ *
+ * En emails, muchos clientes ignoran las variables CSS: copia los valores hex en línea.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* Paleta cerrada */
+  --sw-blanco: #ffffff;        /* 50 % · fondo principal */
+  --sw-verde-ways: #7aa606;    /* 30 % · cajas, CTA, etiquetas, subrayados, líneas, concha. Nunca texto sobre blanco */
+  --sw-verde-sendero: #506718; /* 10 % · resalte, cajas oscuras, palabras clave */
+  --sw-grafito: #2e2e2d;       /*  7 % · texto principal */
+  --sw-gris: #6f6f6e;          /* apoyo · texto secundario */
+  --sw-niebla: #e8e8e6;        /* apoyo · superficies, etiquetas, pies */
+  --sw-brote: #faffee;         /* apoyo · superficies suaves, marca de agua */
+
+  /* Degradado: solo en cajas de fondo verde Ways */
+  --sw-degradado: linear-gradient(135deg, #7aa606 0%, #628a04 100%);
+
+  /* Sombra: todas las cajas. Botones, etiquetas y subrayados sin sombra */
+  --sw-sombra: 0 8px 32px rgba(46, 46, 45, 0.12);
+
+  /* Tipografía */
+  --sw-font: "Montserrat", Arial, Helvetica, sans-serif;
+  --sw-lh-titular: 1.1;
+  --sw-lh-texto: 1.5;
+
+  /* Escala web (px) */
+  --sw-fs-display: 64px; /* 800 · 1,05 */
+  --sw-fs-h1: 48px;      /* 800 · 1,1  */
+  --sw-fs-h2: 36px;      /* 700 · 1,15 */
+  --sw-fs-h3: 28px;      /* 700 · 1,2  */
+  --sw-fs-h4: 22px;      /* 700 · 1,2  */
+  --sw-fs-texto: 16px;   /* 400 · 1,5  */
+  --sw-fs-pie: 13px;     /* 400 · 1,4 (mínimo 12px) */
+  --sw-fs-antetitulo: 12px; /* 700 · MAYÚSCULAS · +0,15em */
+
+  /* Subrayado SW */
+  --sw-subrayado-rotacion: -1.5deg;
+}
+
+body {
+  font-family: var(--sw-font);
+  color: var(--sw-grafito);
+  background: var(--sw-blanco);
+  font-size: var(--sw-fs-texto);
+  line-height: var(--sw-lh-texto);
+}
+
+h1, h2, h3, h4 {
+  line-height: var(--sw-lh-titular);
+  text-transform: none; /* siempre minúscula de frase */
+}
+h1 { font-size: var(--sw-fs-h1); font-weight: 800; }
+h2 { font-size: var(--sw-fs-h2); font-weight: 700; line-height: 1.15; }
+h3 { font-size: var(--sw-fs-h3); font-weight: 700; line-height: 1.2; }
+h4 { font-size: var(--sw-fs-h4); font-weight: 700; line-height: 1.2; }
+
+/* Antetítulo / etiqueta: único sitio con mayúsculas */
+.sw-antetitulo {
+  display: inline-block;
+  font-size: var(--sw-fs-antetitulo);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--sw-verde-sendero);
+}
+.sw-etiqueta {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: var(--sw-verde-ways);
+  color: var(--sw-blanco);
+  font-size: var(--sw-fs-antetitulo);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Subrayado SW: una o dos palabras, una vez por titular, un solo tipo por pieza */
+.sw-subrayado {
+  display: inline-block;
+  padding: 0 0.2em;
+  background: var(--sw-verde-ways);
+  color: var(--sw-blanco);
+  transform: rotate(var(--sw-subrayado-rotacion));
+  border-radius: 0;
+  box-shadow: none;
+}
+/* Versión en negativo: sobre caja verde Ways */
+.sw-caja-verde .sw-subrayado,
+.sw-subrayado--negativo {
+  background: var(--sw-verde-sendero);
+}
+/* Excepción: letra verde Ways sin bloque */
+.sw-subrayado--excepcion {
+  background: none;
+  color: var(--sw-verde-ways);
+  transform: none;
+  padding: 0;
+}
+
+/* Cajas */
+.sw-caja {
+  background: var(--sw-blanco);
+  border-radius: 16px;
+  box-shadow: var(--sw-sombra);
+}
+.sw-caja-verde {
+  background: var(--sw-degradado);
+  color: var(--sw-blanco);
+  border-radius: 16px;
+  box-shadow: var(--sw-sombra);
+}
+.sw-caja-sendero {
+  background: var(--sw-verde-sendero);
+  color: var(--sw-blanco);
+  border-radius: 16px;
+  box-shadow: var(--sw-sombra);
+}
+.sw-caja-brote {
+  background: var(--sw-brote);
+  border-radius: 16px;
+  box-shadow: var(--sw-sombra);
+}
+
+/* CTA: plano y sin sombra */
+.sw-cta {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 6px;
+  background: var(--sw-verde-ways);
+  color: var(--sw-blanco);
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: none;
+}
+/* Sobre foto: blanco con letra verde */
+.sw-cta--sobre-foto {
+  background: var(--sw-blanco);
+  color: var(--sw-verde-ways);
+}
