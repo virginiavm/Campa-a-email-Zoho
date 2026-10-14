@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <title>{{ASUNTO}}</title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <style>* { font-family: Arial, Helvetica, sans-serif !important; }</style>
+  <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  <!--<![endif]-->
+  <style>
+    body { margin: 0; padding: 0; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+    a { text-decoration: none; }
+    @media only screen and (max-width: 600px) {
+      .contenedor { width: 100% !important; }
+      .col { display: block !important; width: 100% !important; }
+      .pad { padding-left: 20px !important; padding-right: 20px !important; }
+      .h1 { font-size: 30px !important; line-height: 34px !important; }
+      .ocultar-movil { display: none !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#FFFFFF;">
+
+  <!-- Preheader (texto de vista previa en la bandeja) -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#FFFFFF;">{{PREHEADER}}&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;</div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color:#FFFFFF;">
+    <tr>
+      <td align="center">
+        <table role="presentation" class="contenedor" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px;">
+
+          <!-- Ver en el navegador -->
+          <tr>
+            <td align="right" class="pad" style="padding:12px 32px 0; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; color:#6F6F6E;">
+              <a href="$[LI:VIEWINBROWSER]$" target="_blank" style="color:#6F6F6E; text-decoration:underline;">Ver en el navegador</a>
+            </td>
+          </tr>
+
+          <!-- Cabecera blanca: logo a la izquierda, teléfono a la derecha -->
+          <tr>
+            <td class="pad" style="padding:20px 32px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="left" valign="middle">
+                    <a href="{{URL_WEB}}" target="_blank"><img src="{{URL_LOGO_VERDE}}" width="160" alt="Santiago Ways" style="display:block; border:0; width:160px; max-width:160px; height:auto;"></a>
+                  </td>
+                  <td align="right" valign="middle" style="font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; font-weight:700; color:#2E2E2D;">
+                    <a href="tel:{{TELEFONO_SIN_ESPACIOS}}" style="color:#2E2E2D; text-decoration:none;">{{TELEFONO}}</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Foto principal enlazada -->
+          <tr>
+            <td>
+              <a href="{{URL_CTA}}" target="_blank"><img src="{{URL_FOTO_HERO}}" width="600" alt="{{ALT_FOTO_HERO}}" style="display:block; border:0; width:100%; max-width:600px; height:auto;"></a>
+            </td>
+          </tr>
+
+          <!-- Antetítulo, titular con subrayado SW, texto y CTA -->
+          <tr>
+            <td class="pad" style="padding:32px 32px 8px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#506718;">
+              {{ANTETITULO}}
+            </td>
+          </tr>
+          <tr>
+            <td class="pad h1" style="padding:0 32px 16px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:36px; line-height:42px; font-weight:800; color:#2E2E2D;">
+              {{TITULAR_INICIO}} <span style="display:inline-block; background-color:#7AA606; color:#FFFFFF; padding:0 6px; transform:rotate(-1.5deg);">{{PALABRAS_SUBRAYADAS}}</span> {{TITULAR_FIN}}
+            </td>
+          </tr>
+          <tr>
+            <td class="pad" style="padding:0 32px 24px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; font-weight:400; color:#2E2E2D;">
+              {{TEXTO_PRINCIPAL}}
+            </td>
+          </tr>
+          <tr>
+            <td class="pad" align="left" style="padding:0 32px 40px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td bgcolor="#7AA606" style="background-color:#7AA606; border-radius:6px;">
+                    <a href="{{URL_CTA}}" target="_blank" style="display:inline-block; padding:14px 28px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:700; color:#FFFFFF; text-decoration:none; border-radius:6px;">{{TEXTO_CTA}}</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Bloque de dos columnas (opcional): foto + texto -->
+          <tr>
+            <td class="pad" style="padding:0 32px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="col" width="268" valign="top" style="width:268px; padding-bottom:16px;">
+                    <a href="{{URL_BLOQUE}}" target="_blank"><img src="{{URL_FOTO_BLOQUE}}" width="268" alt="{{ALT_FOTO_BLOQUE}}" style="display:block; border:0; width:100%; max-width:268px; height:auto; border-radius:12px;"></a>
+                  </td>
+                  <td class="col ocultar-movil" width="24" style="width:24px; font-size:0; line-height:0;">&nbsp;</td>
+                  <td class="col" width="244" valign="top" style="width:244px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#2E2E2D;">
+                    <p style="margin:0 0 8px; font-size:22px; line-height:26px; font-weight:700; color:#2E2E2D;">{{TITULO_BLOQUE}}</p>
+                    <p style="margin:0;">{{TEXTO_BLOQUE}}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Caja verde de cierre (única caja verde del email) -->
+          <tr>
+            <td class="pad" style="padding:0 32px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td bgcolor="#7AA606" align="center" style="background-color:#7AA606; background-image:linear-gradient(135deg,#7AA606 0%,#628A04 100%); border-radius:16px; padding:40px 32px; font-family:'Montserrat', Arial, Helvetica, sans-serif; color:#FFFFFF;">
+                    <p style="margin:0 0 12px; font-size:28px; line-height:34px; font-weight:800; color:#FFFFFF;">{{TITULO_CIERRE}}</p>
+                    <p style="margin:0 0 24px; font-size:16px; line-height:24px; font-weight:400; color:#FFFFFF;">{{TEXTO_CIERRE}}</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                      <tr>
+                        <td bgcolor="#FFFFFF" style="background-color:#FFFFFF; border-radius:6px;">
+                          <a href="{{URL_CTA_CIERRE}}" target="_blank" style="display:inline-block; padding:14px 28px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:700; color:#506718; text-decoration:none; border-radius:6px;">{{TEXTO_CTA_CIERRE}}</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Pie gris común -->
+          <tr>
+            <td bgcolor="#E8E8E6" align="center" class="pad" style="background-color:#E8E8E6; padding:32px; font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;">
+              <a href="{{URL_WEB}}" target="_blank"><img src="{{URL_LOGO_VERDE}}" width="140" alt="Santiago Ways" style="display:block; border:0; width:140px; height:auto; margin:0 auto 20px;"></a>
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto 20px;">
+                <tr>
+                  <td style="padding:0 6px;"><a href="{{URL_INSTAGRAM}}" target="_blank"><img src="{{ICONO_INSTAGRAM}}" width="32" height="32" alt="Instagram" style="display:block; border:0;"></a></td>
+                  <td style="padding:0 6px;"><a href="{{URL_FACEBOOK}}" target="_blank"><img src="{{ICONO_FACEBOOK}}" width="32" height="32" alt="Facebook" style="display:block; border:0;"></a></td>
+                  <td style="padding:0 6px;"><a href="{{URL_YOUTUBE}}" target="_blank"><img src="{{ICONO_YOUTUBE}}" width="32" height="32" alt="YouTube" style="display:block; border:0;"></a></td>
+                </tr>
+              </table>
+              <p style="margin:0 0 8px;">{{DIRECCION}} · <a href="mailto:{{EMAIL_CONTACTO}}" style="color:#2E2E2D; text-decoration:underline;">{{EMAIL_CONTACTO}}</a> · {{TELEFONO}}</p>
+              <p style="margin:0; font-size:12px; line-height:17px; color:#6F6F6E;">Recibes este email porque te suscribiste a las novedades de Santiago Ways. <a href="$[LI:UNSUBSCRIBE]$" target="_blank" style="color:#6F6F6E; text-decoration:underline;">Darse de baja</a></p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

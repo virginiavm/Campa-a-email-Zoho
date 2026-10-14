@@ -22,6 +22,12 @@ Lo esencial:
 - Tono: experto cercano. Inspirador, experto, cercano, cuidadoso y sereno; sin urgencia artificial ni promesas absolutas.
 - Emails: cabecera blanca (logo izquierda, teléfono derecha), un solo subrayado, un CTA principal verde cerca del primer scroll, caja verde solo en el cierre, pie gris común, fotos de peregrinos reales con texto alternativo.
 
+## Emails para Zoho Campaigns
+
+- Para crear un email usa la skill `plantilla-email-zoho` (`.claude/skills/plantilla-email-zoho/SKILL.md`): entrevista primero y genera después.
+- Parte siempre de `emails/_base/plantilla-base.html`; cada campaña va en `emails/AAAA-MM-nombre-corto/`.
+- Tutorial para la usuaria: [`TUTORIAL.md`](TUTORIAL.md).
+
 ## Redacción
 
 - Ortografía española correcta, con tildes.
