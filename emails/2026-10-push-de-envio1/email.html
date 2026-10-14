@@ -30,7 +30,11 @@
       .hero-txt { width: 100% !important; padding: 0 20px 28px !important; }
       .h1 { font-size: 28px !important; line-height: 34px !important; }
       .h2 { font-size: 24px !important; line-height: 30px !important; }
-      .ruta { padding-bottom: 28px !important; }
+      .ruta { width: 48% !important; }
+      .ruta-sep { width: 4% !important; }
+      .ruta-img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+      .ruta-t { font-size: 17px !important; line-height: 21px !important; }
+      .ruta-p { font-size: 14px !important; line-height: 20px !important; }
       .tel { font-size: 13px !important; }
     }
   </style>
@@ -126,18 +130,18 @@
             <td class="pad" style="padding:0 32px 40px;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td class="col ruta" width="260" valign="top" style="width:260px; font-family:'Montserrat', Arial, Helvetica, sans-serif;">
-                    <a href="{{URL_RUTA_SARRIA}}" target="_blank"><img class="col-img" src="img/ruta-sarria.jpg" width="260" alt="Steinerner Wegweiser mit gelber Muschel und Pfeil, dahinter Pilger auf einem Waldweg bei Sarria" style="display:block; border:0; width:260px; max-width:260px; height:auto; border-radius:12px;"></a>
+                  <td class="ruta" width="260" valign="top" style="width:260px; font-family:'Montserrat', Arial, Helvetica, sans-serif;">
+                    <a href="{{URL_RUTA_SARRIA}}" target="_blank"><img class="ruta-img" src="img/ruta-sarria.jpg" width="260" alt="Steinerner Wegweiser mit gelber Muschel und Pfeil, dahinter Pilger auf einem Waldweg bei Sarria" style="display:block; border:0; width:260px; max-width:260px; height:auto; border-radius:12px;"></a>
                     <p style="margin:16px 0 6px; font-size:12px; line-height:16px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#506718;">Letzte 100 km</p>
-                    <p style="margin:0 0 8px; font-size:22px; line-height:26px; font-weight:700;"><a href="{{URL_RUTA_SARRIA}}" target="_blank" style="color:#2E2E2D; text-decoration:none;">Ab Sarria</a></p>
-                    <p style="margin:0; font-size:15px; line-height:22px; color:#2E2E2D;">Die letzten 100 km, mit denen Sie die Compostela erhalten. Im Heiligen Jahr spüren Sie hier die Pilgerstimmung am stärksten.</p>
+                    <p class="ruta-t" style="margin:0 0 8px; font-size:22px; line-height:26px; font-weight:700;"><a href="{{URL_RUTA_SARRIA}}" target="_blank" style="color:#2E2E2D; text-decoration:none;">Ab Sarria</a></p>
+                    <p class="ruta-p" style="margin:0; font-size:15px; line-height:22px; color:#2E2E2D;">Die letzten 100 km, mit denen Sie die Compostela erhalten. Im Heiligen Jahr spüren Sie hier die Pilgerstimmung am stärksten.</p>
                   </td>
-                  <td class="sep" width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
-                  <td class="col ruta" width="260" valign="top" style="width:260px; font-family:'Montserrat', Arial, Helvetica, sans-serif;">
-                    <a href="{{URL_RUTA_PORTUGUES}}" target="_blank"><img class="col-img" src="img/ruta-portugues.jpg" width="260" alt="Alte Steinbrücke über einen Fluss, dahinter ein Dorf am Portugiesischen Jakobsweg bei Sonnenuntergang" style="display:block; border:0; width:260px; max-width:260px; height:auto; border-radius:12px;"></a>
+                  <td class="ruta-sep" width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
+                  <td class="ruta" width="260" valign="top" style="width:260px; font-family:'Montserrat', Arial, Helvetica, sans-serif;">
+                    <a href="{{URL_RUTA_PORTUGUES}}" target="_blank"><img class="ruta-img" src="img/ruta-portugues.jpg" width="260" alt="Alte Steinbrücke über einen Fluss, dahinter ein Dorf am Portugiesischen Jakobsweg bei Sonnenuntergang" style="display:block; border:0; width:260px; max-width:260px; height:auto; border-radius:12px;"></a>
                     <p style="margin:16px 0 6px; font-size:12px; line-height:16px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#506718;">Küste und Dörfer</p>
-                    <p style="margin:0 0 8px; font-size:22px; line-height:26px; font-weight:700;"><a href="{{URL_RUTA_PORTUGUES}}" target="_blank" style="color:#2E2E2D; text-decoration:none;">Portugiesischer Jakobsweg</a></p>
-                    <p style="margin:0; font-size:15px; line-height:22px; color:#2E2E2D;">Der Favorit der deutschen Pilger, die mit uns reisen. Ruhiger, mit Küstenabschnitten und kleinen Dörfern.</p>
+                    <p class="ruta-t" style="margin:0 0 8px; font-size:22px; line-height:26px; font-weight:700;"><a href="{{URL_RUTA_PORTUGUES}}" target="_blank" style="color:#2E2E2D; text-decoration:none;">Portugiesischer Jakobsweg</a></p>
+                    <p class="ruta-p" style="margin:0; font-size:15px; line-height:22px; color:#2E2E2D;">Der Favorit der deutschen Pilger, die mit uns reisen. Ruhiger, mit Küstenabschnitten und kleinen Dörfern.</p>
                   </td>
                 </tr>
               </table>
