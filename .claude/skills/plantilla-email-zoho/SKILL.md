@@ -79,6 +79,16 @@ Crea `emails/<carpeta>/email.html` a partir de la plantilla base y `emails/<carp
 - Baja y preferencias: formato confirmado en campañas ya enviadas de Santiago Ways: `<a href="$[LI:UNSUBSCRIBE]$">` y `<a href="$[LI:SUB_PREF]$">`, escritas exactamente así: el importador de Zoho solo las reconoce con ese formato y, si no las encuentra, añade su propio pie. Nunca pegues URLs de `maillist-manage.com` copiadas de otro envío: son personales de un contacto.
 - Imágenes: las URLs de la librería de Zoho (`ImageDisplayAction.do`) NO sirven: el importador no puede descargarlas y da "Missing Image(s)". Entrega dos archivos para "Import/Upload HTML": el `.html` con las imágenes en rutas relativas `images/...` (casilla izquierda) y un `.zip` que contenga la carpeta `images/` (casilla derecha). Zoho aloja las imágenes y reescribe las rutas. El preview publicado como artifact usa las mismas imágenes locales.
 
+### Componentes del brandbook (maquetas de la página 30): úsalos para que el email no quede pobre
+
+- Texto inicial breve (2 párrafos cortos como máximo) y enseguida bloques que se lean de un vistazo.
+- Franja de ventajas «Así viajas con nosotros» en fondo brote: 3 columnas con icono verde en círculo (PNG 112 px a 56 px), título y una frase. En móvil se apilan.
+- Línea verde corta (40 × 4 px, verde Ways) sobre los títulos de sección.
+- Etiqueta en mayúsculas (niebla con texto grafito sobre foto; grafito con texto blanco sobre blanco).
+- Rutas como tarjetas con dato concreto (tramo · etapas · km) y enlace «Ver ruta →» cuando haya datos.
+- Listas con checks verdes en cajas niebla.
+- Pie gris con isotipo (no el logo completo), redes, teléfonos compactos, dirección y textos legales. Nada de bloques de teléfonos grandes en el cuerpo.
+
 ### Reglas de marca (resumen; manda `brand/BRANDBOOK.md`)
 
 Cabecera blanca con logo verde a la izquierda y teléfono a la derecha · titular Montserrat 800 en minúscula de frase, con un solo subrayado SW · un CTA principal verde cerca del primer scroll · fondo blanco · caja verde solo en el cierre · pie gris (`#E8E8E6`) común con logo, redes y contacto · nunca texto verde Ways sobre blanco (para palabras en verde usa verde sendero `#506718`) · nunca verde sobre verde · tono de experto cercano, sin urgencias artificiales.

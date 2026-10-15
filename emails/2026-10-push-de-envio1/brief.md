@@ -11,7 +11,8 @@
 - Titular sobre la foto (provisional: montaje hórreo + peregrino; la foto definitiva está pendiente).
 - CTA verde tras el texto y CTA blanco en la caja verde de cierre; ambos a Zoho Forms.
 - Rutas a dos columnas (en móvil, una debajo de otra).
-- Pie gris con logo verde, iconos propios (círculo verde Ways y glifo blanco) y textos legales.
+- Pie gris con isotipo, redes, teléfonos de los 4 países, dirección y textos legales.
+- Mejoras de diseño del brandbook (p. 30): texto inicial más corto, franja de ventajas con iconos en brote, línea verde corta sobre los títulos de sección, etiqueta niebla «XACOBEO 2027» en el hero, caja de nota en niebla.
 
 ## Imágenes para subir a Zoho (`img/`)
 
@@ -22,6 +23,8 @@
 | `ruta-sarria.jpg` | 260 px | Ruta 1 |
 | `ruta-portugues.jpg` | 260 px | Ruta 2 |
 | `icono-tiktok.png`, `icono-facebook.png`, `icono-youtube.png`, `icono-instagram.png` | 32 px | Redes |
+| `ventaja-habitacion.png`, `ventaja-equipaje.png`, `ventaja-asistencia.png` | 56 px | Franja «So reisen Sie mit uns» |
+| `isotipo-santiago-ways.png` | 40 px | Concha del pie |
 
 ## Enlaces aplicados
 

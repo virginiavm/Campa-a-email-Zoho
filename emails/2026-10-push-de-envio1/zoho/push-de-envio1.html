@@ -33,7 +33,9 @@
       .ruta-img { width: 100% !important; max-width: 100% !important; height: auto !important; }
       .ruta-t { font-size: 17px !important; line-height: 21px !important; }
       .ruta-p { font-size: 14px !important; line-height: 20px !important; }
-      .tel { font-size: 13px !important; }
+      .ventaja { display: block !important; width: 100% !important; padding: 0 0 22px !important; }
+      .tel-pie { display: block !important; width: 100% !important; }
+      .cierre { padding: 32px 16px !important; }
     }
   </style>
 </head>
@@ -75,7 +77,7 @@
             <td class="pad" style="padding:36px 32px 8px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; font-weight:400; color:#2E2E2D;">
               <p style="margin:0 0 16px;">Hallo $[UD:FIRST_NAME||]$</p>
               <p style="margin:0 0 16px;">Acht Uhr morgens in einem galicischen Dorf. Sie verlassen Ihr Hotel in der frischen Morgenluft und kommen an einem H&#243;rreo vorbei, einem traditionellen Kornspeicher auf Steinpfeilern. So k&#246;nnte Ihr Tag auf dem Camino beginnen.</p>
-              <p style="margin:0;">Mit Santiago Ways starten Sie ausgeruht in jede Etappe: Privatzimmer statt Schlafs&#228;le, Gep&#228;cktransport und telefonische Betreuung rund um die Uhr. <strong style="font-weight:700; color:#506718;">Sie m&#252;ssen nur noch loslaufen.</strong></p>
+              <p style="margin:0;">Mit Santiago Ways starten Sie ausgeruht in jede Etappe. <strong style="font-weight:700; color:#506718;">Sie m&#252;ssen nur noch loslaufen; um den Rest k&#252;mmern wir uns.</strong></p>
             </td>
           </tr>
 
@@ -95,6 +97,7 @@
           <!-- Rutas: t&#237;tulo -->
           <tr>
             <td class="pad" style="padding:0 32px 8px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 14px;"><tr><td width="40" height="4" bgcolor="#7AA606" style="width:40px; height:4px; background-color:#7AA606; font-size:0; line-height:0;">&nbsp;</td></tr></table>
               <h2 class="h2" style="margin:0 0 12px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:28px; line-height:34px; font-weight:700; color:#2E2E2D;">Wo soll Ihr Camino beginnen?</h2>
               <p style="margin:0 0 24px; font-size:16px; line-height:24px; color:#2E2E2D;">Diese beiden Routen empfehlen wir f&#252;r 2027 besonders:</p>
             </td>
@@ -123,12 +126,45 @@
             </td>
           </tr>
 
-          <!-- Caja de nota (brote) -->
+          <!-- Ventajas: as&#237; viaja con nosotros -->
           <tr>
             <td class="pad" style="padding:0 32px 40px;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td bgcolor="#FAFFEE" style="background-color:#FAFFEE; border-radius:16px; box-shadow:0 8px 32px rgba(46,46,45,0.12); padding:24px 28px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:15px; line-height:22px; color:#2E2E2D;">
+                  <td bgcolor="#FAFFEE" style="background-color:#FAFFEE; border-radius:16px; padding:32px 20px 28px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto 14px;"><tr><td width="40" height="4" bgcolor="#7AA606" style="width:40px; height:4px; background-color:#7AA606; font-size:0; line-height:0;">&nbsp;</td></tr></table>
+                    <h2 class="h2" style="margin:0 0 24px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:24px; line-height:30px; font-weight:700; color:#2E2E2D; text-align:center;">So reisen Sie mit uns</h2>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td class="col ventaja" width="33%" valign="top" align="center" style="width:33%; padding:0 8px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; color:#2E2E2D;">
+                          <img src="images/ventaja-habitacion.png" width="56" height="56" alt="" style="display:block; border:0; width:56px; height:56px; margin:0 auto 12px;">
+                          <p style="margin:0 0 6px; font-size:16px; line-height:21px; font-weight:700; color:#2E2E2D;">Privatzimmer</p>
+                          <p style="margin:0; font-size:14px; line-height:20px; color:#2E2E2D;">Von unserem Team besuchte und ausgew&#228;hlte Hotels. Keine Etagenbetten, keine Schlafs&#228;le.</p>
+                        </td>
+                        <td class="col ventaja" width="33%" valign="top" align="center" style="width:33%; padding:0 8px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; color:#2E2E2D;">
+                          <img src="images/ventaja-equipaje.png" width="56" height="56" alt="" style="display:block; border:0; width:56px; height:56px; margin:0 auto 12px;">
+                          <p style="margin:0 0 6px; font-size:16px; line-height:21px; font-weight:700; color:#2E2E2D;">Ihr Gep&#228;ck reist&nbsp;mit</p>
+                          <p style="margin:0; font-size:14px; line-height:20px; color:#2E2E2D;">Ihr Koffer wartet in jeder Unterkunft auf Sie.</p>
+                        </td>
+                        <td class="col ventaja" width="33%" valign="top" align="center" style="width:33%; padding:0 8px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; color:#2E2E2D;">
+                          <img src="images/ventaja-asistencia.png" width="56" height="56" alt="" style="display:block; border:0; width:56px; height:56px; margin:0 auto 12px;">
+                          <p style="margin:0 0 6px; font-size:16px; line-height:21px; font-weight:700; color:#2E2E2D;">Betreuung rund&nbsp;um&nbsp;die&nbsp;Uhr</p>
+                          <p style="margin:0; font-size:14px; line-height:20px; color:#2E2E2D;">Ein Ansprechpartner am Telefon, jederzeit und w&#228;hrend der ganzen Reise.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Caja de nota (niebla) -->
+          <tr>
+            <td class="pad" style="padding:0 32px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td bgcolor="#E8E8E6" style="background-color:#E8E8E6; border-radius:16px; padding:24px 28px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:15px; line-height:22px; color:#2E2E2D;">
                     <strong style="font-weight:700;">Jetzt buchen und den aktuellen Preis f&#252;r 2027 sichern!</strong> Im Heiligen Jakobusjahr rechnen wir mit hoher Nachfrage. Beliebte Unterk&#252;nfte k&#246;nnten daher fr&#252;h ausgebucht sein.
                   </td>
                 </tr>
@@ -141,7 +177,7 @@
             <td class="pad" style="padding:0 32px 40px;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td bgcolor="#7AA606" align="center" style="background-color:#7AA606; background-image:linear-gradient(135deg,#7AA606 0%,#628A04 100%); border-radius:16px; box-shadow:0 8px 32px rgba(46,46,45,0.12); padding:40px 32px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; color:#FFFFFF;">
+                  <td class="cierre" bgcolor="#7AA606" align="center" style="background-color:#7AA606; background-image:linear-gradient(135deg,#7AA606 0%,#628A04 100%); border-radius:16px; box-shadow:0 8px 32px rgba(46,46,45,0.12); padding:40px 32px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; color:#FFFFFF;">
                     <p class="h2" style="margin:0 0 8px; font-size:26px; line-height:32px; font-weight:800; color:#FFFFFF;">Haben Sie 10&nbsp;Minuten Zeit?</p>
                     <p style="margin:0 0 24px; font-size:16px; line-height:24px; font-weight:400; color:#FFFFFF;">Wir beraten Sie gerne pers&#246;nlich.</p>
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
@@ -157,56 +193,10 @@
             </td>
           </tr>
 
-          <!-- Tel&#233;fonos por pa&#237;s -->
-          <tr>
-            <td class="pad" style="padding:0 32px 40px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td colspan="3" align="center" style="padding:0 0 16px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#506718;">Oder rufen Sie uns direkt an</td>
-                </tr>
-                <tr>
-                  <td width="48%" valign="top" style="width:48%;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; border:1px solid #D6D6D3; border-radius:12px; background-color:#FFFFFF;">
-                      <tr>
-                        <td align="center" style="border-radius:12px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;"><a href="tel:+493052015190" style="display:block; padding:16px 8px; color:#2E2E2D; text-decoration:none;"><span style="display:block; font-size:14px; line-height:18px; font-weight:700; color:#2E2E2D;">Deutschland</span><span class="tel" style="display:block; margin-top:4px; font-size:15px; line-height:20px; color:#506718; font-weight:700; text-decoration:underline;">+49 30 52015190</span></a></td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
-                  <td width="48%" valign="top" style="width:48%;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; border:1px solid #D6D6D3; border-radius:12px; background-color:#FFFFFF;">
-                      <tr>
-                        <td align="center" style="border-radius:12px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;"><a href="tel:+41445514031" style="display:block; padding:16px 8px; color:#2E2E2D; text-decoration:none;"><span style="display:block; font-size:14px; line-height:18px; font-weight:700; color:#2E2E2D;">Schweiz</span><span class="tel" style="display:block; margin-top:4px; font-size:15px; line-height:20px; color:#506718; font-weight:700; text-decoration:underline;">+41 44 551 40 31</span></a></td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr><td colspan="3" height="16" style="height:16px; font-size:0; line-height:0;">&nbsp;</td></tr>
-                <tr>
-                  <td width="48%" valign="top" style="width:48%;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; border:1px solid #D6D6D3; border-radius:12px; background-color:#FFFFFF;">
-                      <tr>
-                        <td align="center" style="border-radius:12px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;"><a href="tel:+43720145689" style="display:block; padding:16px 8px; color:#2E2E2D; text-decoration:none;"><span style="display:block; font-size:14px; line-height:18px; font-weight:700; color:#2E2E2D;">&#214;sterreich</span><span class="tel" style="display:block; margin-top:4px; font-size:15px; line-height:20px; color:#506718; font-weight:700; text-decoration:underline;">+43 720 145689</span></a></td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td width="16" style="width:16px; font-size:0; line-height:0;">&nbsp;</td>
-                  <td width="48%" valign="top" style="width:48%;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; border:1px solid #D6D6D3; border-radius:12px; background-color:#FFFFFF;">
-                      <tr>
-                        <td align="center" style="border-radius:12px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif;"><a href="tel:+34928970605" style="display:block; padding:16px 8px; color:#2E2E2D; text-decoration:none;"><span style="display:block; font-size:14px; line-height:18px; font-weight:700; color:#2E2E2D;">Spanien</span><span class="tel" style="display:block; margin-top:4px; font-size:15px; line-height:20px; color:#506718; font-weight:700; text-decoration:underline;">+34 928 970 605</span></a></td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-
           <!-- Pie gris com&#250;n -->
           <tr>
             <td bgcolor="#E8E8E6" align="center" class="pad" style="background-color:#E8E8E6; border-radius:16px; padding:36px 32px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;">
-              <a href="https://santiagoways.com/de/?utm_source=zoho_campaigns&amp;utm_medium=newsletter&amp;utm_campaign=push_de&amp;utm_content=envio1" target="_blank"><img src="images/logo-santiago-ways.png" width="150" alt="Santiago Ways" style="display:block; border:0; width:150px; height:auto; margin:0 auto 20px;"></a>
+              <a href="https://santiagoways.com/de/?utm_source=zoho_campaigns&amp;utm_medium=newsletter&amp;utm_campaign=push_de&amp;utm_content=envio1" target="_blank"><img src="images/isotipo-santiago-ways.png" width="40" alt="Santiago Ways" style="display:block; border:0; width:40px; height:auto; margin:0 auto 16px;"></a>
               <p style="margin:0 0 14px; font-size:14px; line-height:20px; font-weight:700; color:#2E2E2D;">Folgen Sie dem Camino. Und uns!</p>
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto 24px;">
                 <tr>
@@ -216,6 +206,12 @@
                   <td style="padding:0 6px;"><a href="https://www.instagram.com/santiago_ways_de/" target="_blank"><img src="images/icono-instagram.png" width="32" height="32" alt="Instagram" style="display:block; border:0;"></a></td>
                 </tr>
               </table>
+              <p style="margin:0 0 8px; font-size:12px; line-height:16px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#506718;">Rufen Sie uns an</p>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 20px; max-width:440px;">
+                <tr><td class="tel-pie" width="50%" align="center" style="width:50%; padding:4px 6px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;"><span style="font-weight:700;">Deutschland</span>&nbsp; <a href="tel:+493052015190" style="color:#2E2E2D; text-decoration:underline;">+49 30 52015190</a></td><td class="tel-pie" width="50%" align="center" style="width:50%; padding:4px 6px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;"><span style="font-weight:700;">Schweiz</span>&nbsp; <a href="tel:+41445514031" style="color:#2E2E2D; text-decoration:underline;">+41 44 551 40 31</a></td></tr>
+                <tr><td class="tel-pie" width="50%" align="center" style="width:50%; padding:4px 6px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;"><span style="font-weight:700;">&#214;sterreich</span>&nbsp; <a href="tel:+43720145689" style="color:#2E2E2D; text-decoration:underline;">+43 720 145689</a></td><td class="tel-pie" width="50%" align="center" style="width:50%; padding:4px 6px; font-family:'Montserrat', 'Century Gothic', 'Avenir Next', Avenir, 'Segoe UI', Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#2E2E2D;"><span style="font-weight:700;">Spanien</span>&nbsp; <a href="tel:+34928970605" style="color:#2E2E2D; text-decoration:underline;">+34 928 970 605</a></td></tr>
+              </table>
+              <p style="margin:0 0 16px; font-size:12px; line-height:18px; color:#6F6F6E;">Santiago Ways &#183; Antonio Maria Manrique 3, 5&#186;, 12&#170; &#183; 35011 Las Palmas &#183; Spanien &#183; <a href="mailto:info@santiagoways.com" style="color:#6F6F6E; text-decoration:underline;">info@santiagoways.com</a></p>
               <p style="margin:0; font-size:12px; line-height:18px; color:#6F6F6E;">Sie erhalten diese E-Mail, weil Sie dem Erhalt unserer Mitteilungen zugestimmt haben.<br>Sie k&#246;nnen sich hier <a href="$[LI:UNSUBSCRIBE]$" target="_blank" style="color:#6F6F6E; text-decoration:underline;">abmelden</a> oder <a href="$[LI:SUB_PREF]$" target="_blank" style="color:#6F6F6E; text-decoration:underline;">Ihre Einstellungen &#228;ndern</a>.</p>
             </td>
           </tr>
