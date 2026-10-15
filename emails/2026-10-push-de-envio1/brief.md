@@ -31,9 +31,19 @@
 - Teléfonos: enlaces `tel:` en toda la tarjeta.
 - Redes: TikTok (enlace a un vídeo), Facebook DE, YouTube, Instagram DE.
 
+## Zoho
+
+- Imágenes: librería de Zoho Campaigns (`ImageDisplayAction.do`), las 8 aplicadas.
+- Nombre: `$[FNAME|]$` (sin nombre queda «Hallo»). Comprobar con una lista de prueba: en los emails de prueba las etiquetas no se sustituyen.
+- Preferencias: `$[LI:SUB_PREF]$`. Baja: `$[LI:UNSUBSCRIBE]$`.
+
+## Asunto y preheader
+
+- Asunto A: Camino 2027 zum Preis von heute
+- Asunto B: Camino ohne Schlafsaal?
+- Preheader: Gut schlafen, unbeschwert wandern. Wir kümmern uns um den Rest.
+
 ## Pendiente
 
-- URLs públicas de las 8 imágenes (sustituyen a las rutas `img/...`; la del hero va en 3 sitios).
-- `{{NOMBRE}}`: etiqueta de Zoho y saludo alternativo si falta el nombre.
-- `{{URL_PREFERENCIAS}}`: etiqueta de Zoho o eliminar el enlace.
-- Asunto y preheader elegidos para el test A/B.
+- Foto principal definitiva (la actual es un montaje provisional).
+- Prueba de envío a una lista de prueba (Gmail, Outlook y móvil).

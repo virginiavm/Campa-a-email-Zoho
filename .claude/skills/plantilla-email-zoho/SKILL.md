@@ -74,7 +74,9 @@ Crea `emails/<carpeta>/email.html` a partir de la plantilla base y `emails/<carp
 
 - Pie: el enlace de baja es **obligatorio**: `<a href="$[LI:UNSUBSCRIBE]$">Darse de baja</a>`.
 - Ver en navegador: `<a href="$[LI:VIEWINBROWSER]$">Ver en el navegador</a>`.
-- Personalización (nombre, etc.): no inventes la sintaxis. Deja un marcador `{{NOMBRE}}` y pide a la usuaria que lo sustituya con "Insertar etiqueta de combinación" en el editor de Zoho, o que te pegue la etiqueta exacta.
+- Preferencias: `<a href="$[LI:SUB_PREF]$">...</a>`.
+- Nombre: `$[FNAME|valor por defecto]$`. Sin valor por defecto Zoho escribe "Customer" o "Guest", así que pon siempre uno (`$[FNAME|]$` si el saludo debe quedar solo en "Hallo"/"Hola"). Las etiquetas no se sustituyen en los emails de prueba: hay que probar enviando a una lista de prueba. Para otros campos, consulta Merge Tags > Contact Merge Tags en el editor; no inventes la sintaxis.
+- Imágenes: la usuaria las sube a la librería de Zoho Campaigns y saca su URL con clic derecho > "Copiar dirección de imagen" (formato `.../ImageDisplayAction.do?imgName=...`). Esas URLs funcionan en los envíos. El preview publicado como artifact no puede cargarlas: genera una copia del email con las imágenes locales para el preview.
 
 ### Reglas de marca (resumen; manda `brand/BRANDBOOK.md`)
 
