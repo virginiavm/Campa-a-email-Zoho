@@ -34,8 +34,8 @@
 ## Zoho
 
 - Imágenes: librería de Zoho Campaigns (`ImageDisplayAction.do`), las 8 aplicadas.
-- Nombre: `$[FNAME|]$` (sin nombre queda «Hallo»). Comprobar con una lista de prueba: en los emails de prueba las etiquetas no se sustituyen.
-- Preferencias: `$[LI:SUB_PREF]$`. Baja: `$[LI:UNSUBSCRIBE]$`.
+- Nombre: `$[UD:FIRST_NAME||]$`, formato de las campañas ya enviadas (sin nombre queda «Hallo» y salto de línea). Comprobar con una lista de prueba.
+- Baja y preferencias: en el código van `$[LI:UNSUBSCRIBE]$` y `$[LI:SUB_PREF]$`; en Zoho se seleccionan desde su editor (nunca pegar URLs de `maillist-manage.com` de otro envío: son personales de un contacto).
 
 ## Asunto y preheader
 
