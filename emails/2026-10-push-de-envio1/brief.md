@@ -18,7 +18,7 @@
 | Archivo | Se muestra a | Uso |
 |---|---|---|
 | `logo-santiago-ways.png` | 180 px (cabecera) y 150 px (pie) | Logo, PNG transparente |
-| `hero-titular.jpg` | 600 × 300 px | Hero: hórreo (foto original en espejo) con titular en Montserrat y overlay suave |
+| `hero-titular.jpg` | 600 × 320 px | Hero: hórreo (foto original en espejo) con titular en Montserrat y overlay suave |
 | `ruta-sarria.jpg` | 260 px | Ruta 1 |
 | `ruta-portugues.jpg` | 260 px | Ruta 2 |
 | `icono-tiktok.png`, `icono-facebook.png`, `icono-youtube.png`, `icono-instagram.png` | 32 px | Redes |
