@@ -76,7 +76,7 @@ Crea `emails/<carpeta>/email.html` a partir de la plantilla base y `emails/<carp
 - Ver en navegador: `<a href="$[LI:VIEWINBROWSER]$">Ver en el navegador</a>`.
 - Preferencias: `<a href="$[LI:SUB_PREF]$">...</a>`.
 - Nombre: en la cuenta de Santiago Ways el formato usado es `$[UD:FIRST_NAME||]$` (ejemplo real: `Hi $[UD:FIRST_NAME||]$`). Si no hay nombre, el saludo queda solo ("Hallo", "Hola") y el texto sigue en la línea siguiente: no pongas coma tras la etiqueta. Las etiquetas no se sustituyen en los emails de prueba: hay que probar enviando a una lista de prueba.
-- Baja y preferencias: la usuaria los selecciona desde el editor de Zoho. En el código deja `$[LI:UNSUBSCRIBE]$` y `$[LI:SUB_PREF]$` y recuérdale revisarlos allí. Nunca pegues URLs de `maillist-manage.com` copiadas de otro envío: son personales de un contacto.
+- Baja y preferencias: formato confirmado en campañas ya enviadas de Santiago Ways: `<a href="http://$[li:unsubscribe]$">` y `<a href="http://$[LI:SUB_PREF]$">` (con `http://` delante, como lo escribe el editor de Zoho). Nunca pegues URLs de `maillist-manage.com` copiadas de otro envío: son personales de un contacto.
 - Imágenes: la usuaria las sube a la librería de Zoho Campaigns y saca su URL con clic derecho > "Copiar dirección de imagen" (formato `.../ImageDisplayAction.do?imgName=...`). Esas URLs funcionan en los envíos. El preview publicado como artifact no puede cargarlas: genera una copia del email con las imágenes locales para el preview.
 
 ### Reglas de marca (resumen; manda `brand/BRANDBOOK.md`)

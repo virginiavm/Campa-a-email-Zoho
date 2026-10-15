@@ -35,7 +35,7 @@
 
 - Imágenes: librería de Zoho Campaigns (`ImageDisplayAction.do`), las 8 aplicadas.
 - Nombre: `$[UD:FIRST_NAME||]$`, formato de las campañas ya enviadas (sin nombre queda «Hallo» y salto de línea). Comprobar con una lista de prueba.
-- Baja y preferencias: en el código van `$[LI:UNSUBSCRIBE]$` y `$[LI:SUB_PREF]$`; en Zoho se seleccionan desde su editor (nunca pegar URLs de `maillist-manage.com` de otro envío: son personales de un contacto).
+- Baja y preferencias: `http://$[li:unsubscribe]$` y `http://$[LI:SUB_PREF]$`, formato confirmado en una campaña ya enviada.
 
 ## Asunto y preheader
 
