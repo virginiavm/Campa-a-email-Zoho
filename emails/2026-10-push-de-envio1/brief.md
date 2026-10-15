@@ -33,9 +33,9 @@
 
 ## Zoho
 
-- Imágenes: librería de Zoho Campaigns (`ImageDisplayAction.do`), las 8 aplicadas.
-- Nombre: `$[UD:FIRST_NAME||]$`, formato de las campañas ya enviadas (sin nombre queda «Hallo» y salto de línea). Comprobar con una lista de prueba.
-- Baja y preferencias: `http://$[li:unsubscribe]$` y `http://$[LI:SUB_PREF]$`, formato confirmado en una campaña ya enviada.
+- Importación (Import/Upload HTML): `zoho/push-de-envio1.html` en la casilla del HTML y `zoho/imagenes.zip` (carpeta `images/`) en la casilla del zip. Las URLs de la librería de Zoho no sirven para importar.
+- Nombre: `$[UD:FIRST_NAME||]$` (sin nombre queda «Hallo» y salto de línea).
+- Baja y preferencias: `$[LI:UNSUBSCRIBE]$` y `$[LI:SUB_PREF]$`, el formato exacto que pide el importador.
 
 ## Asunto y preheader
 
