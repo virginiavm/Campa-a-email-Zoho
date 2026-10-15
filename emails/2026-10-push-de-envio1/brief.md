@@ -28,7 +28,7 @@
 
 ## Enlaces aplicados
 
-- Cabecera (logo y "Web"): web DE con UTM `push_de` / `envio1`.
+- Cabecera (logo y dominio «santiagoways.com»): web DE con UTM `push_de` / `envio1`.
 - Botones "Rückruf anfordern" y "Ja, rufen Sie mich an": Zoho Forms `rueckruf`.
 - Rutas: Ab Sarria y Camino Portugués (Küstenweg, ab Baiona), con UTM.
 - Teléfonos: enlaces `tel:` en toda la tarjeta.
